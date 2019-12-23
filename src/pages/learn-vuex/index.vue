@@ -1,6 +1,6 @@
 <template>
   <div>
-   {{count+'数字'}}
+    <div>{{count+'数字'}}</div>
     <div>
       <el-button type="primary" @click="increment">增加</el-button>
       <el-button type="warning" @click="reduce">减少</el-button>
